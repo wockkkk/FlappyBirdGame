@@ -28,6 +28,7 @@ def spawn_column():
     return [top, bottom]
 
 if __name__ == "__main__":
+    columns.append(spawn_column())
     # 主循环
     running = True
     while running:

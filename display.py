@@ -2,8 +2,8 @@ import pygame
 import torch
 from flappy_env import FlappyBirdEnv
 from dqn128_64_32 import EnhancedDQN as DQN128
-from qdn256_128_64 import EnhancedDQN as DQN256
-from qdn256_128_64_32 import EnhancedDQN as DQN256_2
+from dqn256_128_64 import EnhancedDQN as DQN256
+from dqn256_128_64_32 import EnhancedDQN as DQN256_2
 
 mod = 256
 path = '256_model812round_34score.pth'

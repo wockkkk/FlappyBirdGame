@@ -7,8 +7,8 @@ import torch.nn as nn
 import matplotlib.pyplot as plt
 from collections import deque
 from dqn128_64_32 import EnhancedDQN as DQN128
-from qdn256_128_64 import EnhancedDQN as DQN256
-from qdn256_128_64_32 import EnhancedDQN as DQN256_2
+from dqn256_128_64 import EnhancedDQN as DQN256
+from dqn256_128_64_32 import EnhancedDQN as DQN256_2
 
 # ==================== 设置随机种子 ====================
 SEED = 42

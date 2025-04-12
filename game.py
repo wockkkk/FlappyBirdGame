@@ -56,8 +56,8 @@ if __name__ == "__main__":
             for column in columns:
                  if bird_rect.colliderect(column[0]) or bird_rect.colliderect(column[1]):
                     game_over = True
-            for pair in columns:
-                if pair[0].x <= -20:
+            for pair in columns.copy():
+                if pair[0].right <= bird_rect.left:
                     columns.remove(pair)
                     score += 1
 

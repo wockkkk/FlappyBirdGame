@@ -113,7 +113,6 @@ model_save_path = f'256_2_model{episode}round_{env.score}score.pth'
 torch.save(policy_net.state_dict(), model_save_path)
 print(f"模型已保存到 {model_save_path}")
 # 绘制训练曲线
-# 绘制训练曲线
 plt.figure(figsize=(12, 6))
 
 # 绘制 score 曲线
